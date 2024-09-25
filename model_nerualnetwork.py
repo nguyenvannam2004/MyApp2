@@ -91,4 +91,4 @@ model = NeuralNetwork(input_size, hidden_size, output_size)
 model.train(X_train_resampled, y_train_resampled, epochs=40000, learning_rate=0.1, lambda_reg=0.0001)
 
 # Lưu mô hình vào file
-joblib.dump(model, "D:/data_hocmay/neuralnetwork_model.pkl")
+joblib.dump(model, "neuralnetwork_model.pkl")
