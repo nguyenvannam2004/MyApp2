@@ -184,6 +184,6 @@ model = {
     "weights_input_hidden": weights_input_hidden,
     "weights_hidden_output": weights_hidden_output
 }
-joblib.dump(model, "D:/data_hocmay/neuralnetwork.pkl")
+joblib.dump(model, "neuralnetwork.pkl")
 
 
