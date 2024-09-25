@@ -49,7 +49,7 @@ test_accuracy = accuracy_score(y_test, y_test_pred)
 print(f'Dộ chính xác trên tập kiểm tra: {test_accuracy:.10f}')
 
 # Lưu mô hình
-joblib.dump(model, "D:/data_hocmay/logistic_model.pkl")
+joblib.dump(model, "logistic_model.pkl")
 
 # Tính và vẽ ROC Curve (chỉ áp dụng với bài toán nhị phân)
 if len(set(y)) == 2:
