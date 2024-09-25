@@ -112,4 +112,4 @@ y_val_pred = ensemble_model.predict(new_data_reshaped)
 print(y_val_pred)
 
 
-joblib.dump(ensemble_model, "C:/Users/Nam's computer/Desktop/python/ensemble_model.pkl")
+joblib.dump(ensemble_model, "D:/data_hocmay/ensemble_model.pkl")
